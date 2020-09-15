@@ -1,0 +1,44 @@
+.box {
+    width:650px;
+    margin:0 auto;
+    position:relative;           
+}
+.white{
+    width:45px;
+    height:250px;
+    display:inline-block;
+    background-color: white;
+    border:1px solid silver;
+    border-radius:3px;
+}
+.black {
+    width:40px;
+    height:150px;
+    display:inline-block;
+    background-color: black;
+    border:1px solid silver;
+    border-radius:3px;
+    position:absolute;
+    top:0;
+}
+.white:hover{
+    box-shadow: inset -5px -5px 5px silver;
+}
+.black:hover{
+    box-shadow: inset -3px 3px 3px rgb(114, 114, 114);
+}
+.b-1 {
+    left:25px;
+}
+.b-2 {
+    left:80px;
+}
+.b-3 {
+    left:180px;
+}
+.b-4 {
+    left:230px;
+}
+.b-5 {
+    left:280px;
+}
